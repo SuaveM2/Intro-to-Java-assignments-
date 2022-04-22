@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+ Scanner input;
+        input = new Scanner(System.in);
+
+        System.out.print("Enter first name:");
+        String first = input.next();
+        System.out.print("Enter last name:");
+        String last = input.next();
+        System.out.println("hello world, my name is " + first + " " + last + " !");
+        input.close();
+    }
+}
