@@ -1,0 +1,55 @@
+import java.util.Scanner;
+
+public class Main {
+
+
+
+
+
+
+
+
+
+
+
+    public static void main(String[] args) {
+
+
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.print("its marioo, enter the height of the pyrimid you want please: ");
+
+
+
+        int tall = scan.nextInt();
+
+        for(int counter = 1; counter<= tall; counter++)
+
+                   {
+
+             for (int theory = 0; theory < tall -counter; theory++)
+
+                System.out.print(" ");
+
+             for (int j=0;j<=2*counter;j++)
+
+                         {
+
+                 if(j==counter)
+
+                    System.out.print(" ");
+
+                   else
+
+                     System.out.print("#");
+
+            }
+
+                       System.out.println();
+
+        }
+
+    }
+
+}
